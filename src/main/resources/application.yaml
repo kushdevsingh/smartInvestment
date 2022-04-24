@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: smartInvestment
+
+server:
+  port: 8080
+
+---
+spring:
+  datasource:
+    url: jdbc:sqlserver://bosbizon.database.windows.net:1433;database=SmartInvestments;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: bosbizonAdmin@bosbizon
+    password: H@reKrishnaH@reRama
