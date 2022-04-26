@@ -1,3 +1,5 @@
+## Check the Git branch
+
 FROM adoptopenjdk:11-jre-hotspot as builder
 # Add Maintainer Info
 LABEL maintainer="kushdev@gmail.com"
